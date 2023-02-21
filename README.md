@@ -1,7 +1,6 @@
 
 # EEPROM_24C04
 This library is built to interface with the cheap $1 24C04 EEPROM chips
-These chips
 
 ## Installation
 To install this library, simply download the zip file or clone this repository to your Arduino libraries folder. The default location for the libraries folder is in the Arduino installation directory, under the "libraries" folder.
