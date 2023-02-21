@@ -7,12 +7,13 @@
  * @param wire: The TwoWire instance to use.
  * @param clock: The clock speed to use.
  * @param page_size: The size of the page to write to.
+ * @param eeprom_size: The size of the EEPROM device.
  * @param write_cycle_time: The time to wait between writes in milliseconds.
  * 
  * @example Create a new instance of the EEPROM_24C04 class
- *          EEPROM_24C04* eeprom = new eeprom(EEPROM_ADDRESS, Wire, 1000000);
+ *          EEPROM_24C04* eeprom = new eeprom(EEPROM_ADDRESS, &Wire);
  * 
- * @note The default clock speed is 1MHz, the default page size is 16 bytes and the default write cycle time is 5ms. 
+ * @note The default clock speed is 100kHz, the default page size is 16 bytes and the default write cycle time is 5ms. 
  *       It is not recommended to change the write_cycle_time or the page_size if you are not familiar with the EEPROM device you are using.
 */
 EEPROM_24C04::EEPROM_24C04(uint8_t device_address, TwoWire* wire, uint32_t clock, 

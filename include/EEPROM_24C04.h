@@ -6,7 +6,7 @@
 class EEPROM_24C04
 {
 public:
-    EEPROM_24C04(uint8_t device_address, TwoWire* wire, uint32_t clock = 1000000, 
+    EEPROM_24C04(uint8_t device_address, TwoWire* wire, uint32_t clock = 100000, 
                 uint8_t page_size = 16, uint16_t eeprom_size = 512, uint8_t write_cycle_time = 5);
     
     uint8_t read_byte(uint16_t target_address);

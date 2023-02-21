@@ -1,0 +1,23 @@
+{
+    "name": "EEPROM_24C04",
+    "version": "1.0.0",
+    "description": "An interface for the 24C04 EEPROM chip",
+    "keywords": "arduino, eeprom, 24c04, 24c04a, i2c",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/Cuprum77/EEPROM_24C04"
+    },
+    "authors":
+    [
+      {
+        "name": "Cuprum77",
+        "url": "https://github.com/Cuprum77",
+        "maintainer": true
+      }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/Cuprum77/EEPROM_24C04",
+    "frameworks": "arduino",
+    "platforms": "*"
+  }
