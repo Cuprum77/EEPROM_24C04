@@ -1,7 +1,12 @@
 
 # EEPROM_24C04
 This library is built to interface with the cheap $1 24C04 EEPROM chips
-These chips
+
+## Part 
+It is not as easy to find this chip today, as several manufacturers have discontinued its production. And as a result, only a few stores carry it or similar ICs.
+
+[Digikey](https://www.digikey.no/no/products/detail/fremont-micro-devices-ltd/FT24C04A-USG-B/3515962)
+[Mouser](https://no.mouser.com/ProductDetail/onsemi/CAV24C04WE-GT3?qs=y%252BJdrdj3vZpSQMFoxfj%2FNQ%3D%3D) (not verified!)
 
 ## Installation
 To install this library, simply download the zip file or clone this repository to your Arduino libraries folder. The default location for the libraries folder is in the Arduino installation directory, under the "libraries" folder.
