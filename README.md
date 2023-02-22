@@ -2,6 +2,13 @@
 # EEPROM_24C04
 This library is built to interface with the cheap $1 24C04 EEPROM chips
 These chips
+## Parts
+It is not as easy to find this chip today, as several manufacturers have discontinued its production. And as a result, only a few stores carry it or similar ICs.
+
+[Digikey](https://www.digikey.no/no/products/detail/fremont-micro-devices-ltd/FT24C04A-USG-B/3515962)
+[Mouser](https://no.mouser.com/ProductDetail/onsemi/CAV24C04WE-GT3?qs=y%252BJdrdj3vZpSQMFoxfj%2FNQ%3D%3D) (not verified!)
+
+Note it does require much stronger pull-up resistors than your average I²C device if running on a breadboard or just at high speed. I found it to work best with a 510 ohm resistor as pull-up on the data and clock lines to give sharp squarewaves, although 1 000 ohm also works fine.
 
 ## Installation
 To install this library, simply download the zip file or clone this repository to your Arduino libraries folder. The default location for the libraries folder is in the Arduino installation directory, under the "libraries" folder.
@@ -27,6 +34,7 @@ Address of the device is decided on how you wire the A0-A2 pins
 |0x52| x | 1 | 0 |
 |0x54| x | 0 | 1 |
 |0x56| x | 1 | 1 |
+
 A0 is not connected, and can simply be grounded
 
 ## Usage
@@ -114,7 +122,8 @@ unsigned short eeprom_size = eeprom->eeprom_size();
 There might be the need to customize the device a bit further. Maybe there is a desire to increase page size or attempt to make it work with similar EEPROM devices?
 
 Luckily the constructor supports multiple arguements, listed below
-|||
+
+|Argument|Description|
 |---|---|
 | Clock speed | Set the I²C clock speed |
 | Page size | How many bytes per page |
