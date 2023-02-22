@@ -2,7 +2,7 @@
 # EEPROM_24C04
 This library is built to interface with the cheap $1 24C04 EEPROM chips
 
-## Part 
+## Parts 
 It is not as easy to find this chip today, as several manufacturers have discontinued its production. And as a result, only a few stores carry it or similar ICs.
 
 [Digikey](https://www.digikey.no/no/products/detail/fremont-micro-devices-ltd/FT24C04A-USG-B/3515962)
