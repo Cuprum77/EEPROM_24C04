@@ -6,6 +6,7 @@ These chips
 It is not as easy to find this chip today, as several manufacturers have discontinued its production. And as a result, only a few stores carry it or similar ICs.
 
 [Digikey](https://www.digikey.no/no/products/detail/fremont-micro-devices-ltd/FT24C04A-USG-B/3515962)
+
 [Mouser](https://no.mouser.com/ProductDetail/onsemi/CAV24C04WE-GT3?qs=y%252BJdrdj3vZpSQMFoxfj%2FNQ%3D%3D) (not verified!)
 
 Note it does require much stronger pull-up resistors than your average I²C device if running on a breadboard or just at high speed. I found it to work best with a 510 ohm resistor as pull-up on the data and clock lines to give sharp squarewaves, although 1 000 ohm also works fine.
