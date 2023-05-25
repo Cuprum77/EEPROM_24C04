@@ -1,7 +1,7 @@
 
 # EEPROM_24C04
-This library is built to interface with the cheap $1 24C04 EEPROM chips
-These chips
+This library is built to interface with the cheap 10¢ 24C04 EEPROM chips
+
 ## Parts
 It is not as easy to find this chip today, as several manufacturers have discontinued its production. And as a result, only a few stores carry it or similar ICs.
 
